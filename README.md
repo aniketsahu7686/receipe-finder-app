@@ -1,8 +1,22 @@
-# React + Vite
+This is a React-based web application that displays a collection of recipes. Users can browse recipes, view detailed information about each recipe, and learn more about the website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+Home Page: Displays a list of all recipes with images and titles.
+Recipe Details: Users can click on a recipe to see more details, including ingredients and preparation steps.
+About Page: Provides information about the website.
+Navigation: Includes a navbar for easy access to different sections of the site.
+Responsive Design: The layout adjusts for different screen sizes, ensuring a good experience on both desktop and mobile devices.
+Footer: Displays social media links at the bottom of the page.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack:
+React: For building the user interface.
+React Router: For managing navigation between pages.
+CSS: For styling the components.
+
+
+Project Structure:
+App.js: The main file that sets up the routes and includes the Navbar and Footer.
+Components: Contains reusable components like Home, About, RecipeDetails, Navbar, and Footer.
+CSS: Styling is done using a single CSS file that applies styles globally and to specific sections like the navbar, hero, recipes, footer, and details pages.
+Data: Recipe data is imported from a recipes.json file.
